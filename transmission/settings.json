@@ -12,11 +12,11 @@
     "blocklist-url": "", 
     "cache-size-mb": 2, 
     "dht-enabled": true, 
-    "download-dir": "/home/torrent/download", #директория для скачанных файлов
+    "download-dir": "/home/torrent/download", #директория для времменых файлов
     "encryption": 1, 
     "idle-seeding-limit": 1, 
     "idle-seeding-limit-enabled": true, 
-    "incomplete-dir": "/home/torrent/complete", #дирректория для скачиваемых файлов
+    "incomplete-dir": "/home/torrent/complete", #дирректория для скачанных файлов
     "incomplete-dir-enabled": true, 
     "lazy-bitfield-enabled": true, 
     "lpd-enabled": false, 
