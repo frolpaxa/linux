@@ -1,22 +1,22 @@
 {
-    "alt-speed-down": 1000000, #скорость альтернативной загрузки
-    "alt-speed-enabled": true, #включена ли альтернативаня загрузка да/нет (true/false)
-    "alt-speed-time-begin": 75, #время начала альтернативной загрузки с 75 минуты с 1:15
-    "alt-speed-time-day": 127, #по каким дням 127-по всем
-    "alt-speed-time-enabled": true, #включено ли время альтернативной загрузки да/нет (true/false)
-    "alt-speed-time-end": 405, #время окончания альтернативной загрузки  до 405 минуты до 6:45
-    "alt-speed-up": 0, #скорость альтернативной отдачи
+    "alt-speed-down": 1000000, 
+    "alt-speed-enabled": true, 
+    "alt-speed-time-begin": 75, 
+    "alt-speed-time-day": 127, 
+    "alt-speed-time-enabled": true, 
+    "alt-speed-time-end": 405, 
+    "alt-speed-up": 0, 
     "bind-address-ipv4": "0.0.0.0", 
     "bind-address-ipv6": "::", 
     "blocklist-enabled": false, 
     "blocklist-url": "", 
     "cache-size-mb": 2, 
     "dht-enabled": true, 
-    "download-dir": "/home/torrent/download", #директория для скачанных файлов
+    "download-dir": "/home/share/torrent/complete", 
     "encryption": 1, 
     "idle-seeding-limit": 1, 
     "idle-seeding-limit-enabled": true, 
-    "incomplete-dir": "/home/torrent/complete", #дирректория для скачиваемых файлов
+    "incomplete-dir": "/home/share/torrent/download", 
     "incomplete-dir-enabled": true, 
     "lazy-bitfield-enabled": true, 
     "lpd-enabled": false, 
@@ -24,7 +24,7 @@
     "open-file-limit": 32, 
     "peer-limit-global": 240, 
     "peer-limit-per-torrent": 60, 
-    "peer-port": 54321, #порт
+    "peer-port": 54321, 
     "peer-port-random-high": 65535, 
     "peer-port-random-low": 49152, 
     "peer-port-random-on-start": false, 
@@ -37,22 +37,22 @@
     "rename-partial-files": true, 
     "rpc-authentication-required": true, 
     "rpc-bind-address": "0.0.0.0", 
-    "rpc-enabled": true, #доступ по логину паролю да/нет (true/false)
-    "rpc-password": "your_password_here", #пароль
+    "rpc-enabled": true, 
+    "rpc-password": "your_password_here", 
     "rpc-port": 9091, 
-    "rpc-username": "your_username_here", #логин
-    "rpc-whitelist": "yor_ip_address_here", #список разрешенных ip адресов для доступа к web-интерфейсу
-    "rpc-whitelist-enabled": false, #включение доступа с ip адресов да/нет (true/false)
+    "rpc-username": "your_username_here", 
+    "rpc-whitelist": "yor_ip_address_here", 
+    "rpc-whitelist-enabled": false, 
     "script-torrent-done-enabled": false, 
     "script-torrent-done-filename": "", 
-    "speed-limit-down": 0, #ограничение скорости обычной загрузки
-    "speed-limit-down-enabled": true, #включение ограничения обычной загрузки да/нет (true/false)
-    "speed-limit-up": 0, #ограничение скорости обычной отдачи
-    "speed-limit-up-enabled": true, #включение ограничения обычной отдачи да/нет (true/false)
+    "speed-limit-down": 0, 
+    "speed-limit-down-enabled": true, 
+    "speed-limit-up": 0, 
+    "speed-limit-up-enabled": true, 
     "start-added-torrents": true, 
     "trash-original-torrent-files": false, 
     "umask": 18, 
     "upload-slots-per-torrent": 14, 
-    "watch-dir": "/home/torrent/to_download", #директория с которой подхватывать торрен-файлы для скачивания
+    "watch-dir": "/home/share/torrent/to_download", 
     "watch-dir-enabled": true
 }
